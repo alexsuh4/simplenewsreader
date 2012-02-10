@@ -20,7 +20,7 @@
     <SignManifests>true</SignManifests>
     <TargetFrameworkSubset>
     </TargetFrameworkSubset>
-    <PublishUrl>C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\Publish\ynetmivzakim\</PublishUrl>
+    <PublishUrl>C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\Publish\simpleNewsReader\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Web</InstallFrom>
     <UpdateEnabled>true</UpdateEnabled>
@@ -30,10 +30,10 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <InstallUrl>http://alexsuh.net16.net/apps/ynetMivzakim/</InstallUrl>
+    <InstallUrl>http://alexsuh.net16.net/apps/simpleNewsReader/</InstallUrl>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>4</ApplicationRevision>
+    <ApplicationRevision>5</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
