@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xrml="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <assemblyIdentity name="ynetMivzakim.application" version="1.0.0.4" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <assemblyIdentity name="ynetMivzakim.application" version="1.0.0.5" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <description asmv2:publisher="Alexsuh Ltd" asmv2:product="ynetMivzakim" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <deployment install="true" mapFileExtensions="true">
     <subscription>
@@ -8,17 +8,17 @@
         <beforeApplicationStartup />
       </update>
     </subscription>
-    <deploymentProvider codebase="http://alexsuh.net16.net/apps/ynetMivzakim/ynetMivzakim.application" />
+    <deploymentProvider codebase="http://alexsuh.net16.net/apps/simpleNewsReader/ynetMivzakim.application" />
   </deployment>
   <dependency>
     <dependentAssembly dependencyType="install" codebase="ynetMivzakim.exe.manifest" size="5197">
-      <assemblyIdentity name="ynetMivzakim.exe" version="1.0.0.4" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+      <assemblyIdentity name="ynetMivzakim.exe" version="1.0.0.5" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>BBJYwiEm4moJLSn0TngEGDyLetk=</dsig:DigestValue>
+        <dsig:DigestValue>pRBtc2uazvKlIP+Kldogums3J4o=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
