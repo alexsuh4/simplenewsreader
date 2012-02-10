@@ -1,0 +1,9 @@
+D:\data\projects\ynetMivzakim\NewsReaderSharedLibabry\bin\Debug\NewsReaderSharedLibabry.dll
+D:\data\projects\ynetMivzakim\NewsReaderSharedLibabry\bin\Debug\NewsReaderSharedLibabry.pdb
+D:\data\projects\ynetMivzakim\NewsReaderSharedLibabry\bin\Debug\HtmlAgilityPack.dll
+D:\data\projects\ynetMivzakim\NewsReaderSharedLibabry\bin\Debug\HtmlAgilityPack.pdb
+D:\data\projects\ynetMivzakim\NewsReaderSharedLibabry\bin\Debug\HtmlAgilityPack.xml
+D:\data\projects\ynetMivzakim\NewsReaderSharedLibabry\obj\Debug\ResolveAssemblyReference.cache
+D:\data\projects\ynetMivzakim\NewsReaderSharedLibabry\obj\Debug\NewsReaderSharedLibabry.dll
+D:\data\projects\ynetMivzakim\NewsReaderSharedLibabry\obj\Debug\NewsReaderSharedLibabry.pdb
+D:\data\projects\ynetMivzakim\NewsReaderSharedLibabry\bin\Debug\NewsReaderSharedLibabry.dll.config

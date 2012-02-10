@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C# Express 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "simpleNewsReader", "ynetMivzakim\simpleNewsReader.csproj", "{2456761B-7BFD-4B3E-B568-64019F42DE4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsReaderSharedLibabry", "NewsReaderSharedLibabry\NewsReaderSharedLibabry.csproj", "{3A9D81F1-41CF-4CD9-A3AE-48A96BB1A0E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFNewsReader", "WPFNewsReader\WPFNewsReader.csproj", "{646E6F89-B894-445D-ADB2-76822CE7C6EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2456761B-7BFD-4B3E-B568-64019F42DE4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2456761B-7BFD-4B3E-B568-64019F42DE4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2456761B-7BFD-4B3E-B568-64019F42DE4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2456761B-7BFD-4B3E-B568-64019F42DE4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A9D81F1-41CF-4CD9-A3AE-48A96BB1A0E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A9D81F1-41CF-4CD9-A3AE-48A96BB1A0E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A9D81F1-41CF-4CD9-A3AE-48A96BB1A0E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A9D81F1-41CF-4CD9-A3AE-48A96BB1A0E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{646E6F89-B894-445D-ADB2-76822CE7C6EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{646E6F89-B894-445D-ADB2-76822CE7C6EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{646E6F89-B894-445D-ADB2-76822CE7C6EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{646E6F89-B894-445D-ADB2-76822CE7C6EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

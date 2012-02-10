@@ -1,0 +1,17 @@
+D:\data\projects\ynetMivzakim\WPFNewsReader\bin\Debug\WPFNewsReader.exe
+D:\data\projects\ynetMivzakim\WPFNewsReader\bin\Debug\WPFNewsReader.pdb
+D:\data\projects\ynetMivzakim\WPFNewsReader\bin\Debug\NewsReaderSharedLibabry.dll
+D:\data\projects\ynetMivzakim\WPFNewsReader\bin\Debug\HtmlAgilityPack.dll
+D:\data\projects\ynetMivzakim\WPFNewsReader\bin\Debug\HtmlAgilityPack.pdb
+D:\data\projects\ynetMivzakim\WPFNewsReader\bin\Debug\HtmlAgilityPack.xml
+D:\data\projects\ynetMivzakim\WPFNewsReader\bin\Debug\NewsReaderSharedLibabry.pdb
+D:\data\projects\ynetMivzakim\WPFNewsReader\obj\Debug\ResolveAssemblyReference.cache
+D:\data\projects\ynetMivzakim\WPFNewsReader\obj\Debug\Window1.baml
+D:\data\projects\ynetMivzakim\WPFNewsReader\obj\Debug\Window1.g.cs
+D:\data\projects\ynetMivzakim\WPFNewsReader\obj\Debug\App.g.cs
+D:\data\projects\ynetMivzakim\WPFNewsReader\obj\Debug\WPFNewsReader_MarkupCompile.cache
+D:\data\projects\ynetMivzakim\WPFNewsReader\obj\Debug\WPFNewsReader.g.resources
+D:\data\projects\ynetMivzakim\WPFNewsReader\obj\Debug\WPFNewsReader.Properties.Resources.resources
+D:\data\projects\ynetMivzakim\WPFNewsReader\obj\Debug\WPFNewsReader.csproj.GenerateResource.Cache
+D:\data\projects\ynetMivzakim\WPFNewsReader\obj\Debug\WPFNewsReader.exe
+D:\data\projects\ynetMivzakim\WPFNewsReader\obj\Debug\WPFNewsReader.pdb
