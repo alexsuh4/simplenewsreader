@@ -11,14 +11,14 @@
     <deploymentProvider codebase="http://alexsuh.net16.net/apps/simpleNewsReader/ynetMivzakim.application" />
   </deployment>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="ynetMivzakim.exe.manifest" size="5776">
+    <dependentAssembly dependencyType="install" codebase="ynetMivzakim.exe.manifest" size="6407">
       <assemblyIdentity name="ynetMivzakim.exe" version="1.0.0.5" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>tqglMK6PyaxpH5G64PpKfRF0h5o=</dsig:DigestValue>
+        <dsig:DigestValue>qSJtLdt9f89ycqHNIVPmF9Xq3RQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

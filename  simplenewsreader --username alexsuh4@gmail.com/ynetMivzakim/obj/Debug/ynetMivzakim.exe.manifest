@@ -53,6 +53,18 @@
     </dependentAssembly>
   </dependency>
   <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ContentProcessor.dll" size="6144">
+      <assemblyIdentity name="ContentProcessor" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>pn/JTS5XOW09bdi9hnuZ9LulSU0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HtmlAgilityPack.dll" size="135168">
       <assemblyIdentity name="HtmlAgilityPack" version="1.4.0.0" publicKeyToken="BD319B19EAF3B43A" language="neutral" processorArchitecture="msil" />
       <hash>
@@ -65,26 +77,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NewsReaderSharedLibabry.dll" size="15872">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NewsReaderSharedLibabry.dll" size="16384">
       <assemblyIdentity name="NewsReaderSharedLibabry" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>EtzT6ci9/5IpywNpxJwBMKWg9X0=</dsig:DigestValue>
+        <dsig:DigestValue>UalGvsdCde0DYyPe/mGt3eoKAB4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ynetMivzakim.exe" size="110592">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ynetMivzakim.exe" size="119808">
       <assemblyIdentity name="ynetMivzakim" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>/Hq1koi3Y7/5+nKRYELyk/22XwE=</dsig:DigestValue>
+        <dsig:DigestValue>xk0EwRsYsEwbX9oTnUdPy/tIRBw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsReaderSharedLibabry", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFNewsReader", "WPFNewsReader\WPFNewsReader.csproj", "{646E6F89-B894-445D-ADB2-76822CE7C6EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContentProcessorLibrary", "ContentProcessor\ContentProcessorLibrary.csproj", "{E9184627-84C6-40F4-9C17-2F77A45B2A6A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{646E6F89-B894-445D-ADB2-76822CE7C6EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{646E6F89-B894-445D-ADB2-76822CE7C6EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{646E6F89-B894-445D-ADB2-76822CE7C6EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9184627-84C6-40F4-9C17-2F77A45B2A6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9184627-84C6-40F4-9C17-2F77A45B2A6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9184627-84C6-40F4-9C17-2F77A45B2A6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9184627-84C6-40F4-9C17-2F77A45B2A6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

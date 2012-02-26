@@ -39,9 +39,9 @@ namespace WPFNewsReader
         private void RefreshView()
         {
             
-            newsFeedList.DataContext =
-                 from evt in ContentProvider.GetData()
-                 select evt.Display;
+            //newsFeedList.DataContext =
+            //     from evt in ContentProvider.GetData()
+            //     select evt.Display;
         }
 
         private void button1_Click(object sender, RoutedEventArgs e)

@@ -32,10 +32,10 @@ namespace NewsReaderSharedLibabry
                   select Event.FromHtmlNode(t)).ToList();
 
         }
-
-        public static List<Event> GetData()
+        static TimeSpan maxTimeout = new TimeSpan(0, 0, 30);
+        public static FeedINfo GetData()
         {
-            List<Event> result = new List<Event>();
+            //List<ItemInfo> result = new List<Event>();
             XmlDocument doc = null;
             if (File.Exists("StoryRss1854.xml"))
             {
@@ -50,6 +50,11 @@ namespace NewsReaderSharedLibabry
                     File.Delete("StoryRss1854.xml");
                 }
             }
+            if(File.Exists("StoryRss1854.xml") && DateTime.Now.Subtract(File.GetCreationTime("StoryRss1854.xml")).TotalSeconds > maxTimeout.TotalSeconds)
+            {
+                doc = null;
+                File.Delete("StoryRss1854.xml");
+            }
             if (!File.Exists("StoryRss1854.xml"))
             {
                 WebClient webClient = new WebClient();
@@ -62,7 +67,7 @@ namespace NewsReaderSharedLibabry
             }
             FeedINfo info = FeedInfoUtils.createFromRssXml(doc);
 
-            return result;
+            return info;
             //List<Event>
         }
    }

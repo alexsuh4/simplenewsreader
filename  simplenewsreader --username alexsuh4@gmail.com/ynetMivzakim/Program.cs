@@ -7,14 +7,17 @@ namespace ynetMivzakim
 {
     static class Program
     {
+        public static bool IsRuntime;
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
         [STAThread]
         static void Main()
         {
+            
             try
             {
+                IsRuntime = true;
                 Application.EnableVisualStyles();
                 Application.SetCompatibleTextRenderingDefault(false);
                 Application.Run(new Form1());
