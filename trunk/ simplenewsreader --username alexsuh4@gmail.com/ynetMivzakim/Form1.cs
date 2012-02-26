@@ -11,6 +11,7 @@ using System.IO;
 using System.Web;
 using System.Diagnostics;
 using NewsReaderSharedLibabry;
+using ContentProcessor;
 
 namespace ynetMivzakim
 {
@@ -77,9 +78,9 @@ namespace ynetMivzakim
 
         private void news_DoubleClick(object sender, EventArgs e)
         {
-            Event evt = news.SelectedValue as Event;
-            if (evt == null && !string.IsNullOrEmpty(evt.RefUrl)) return;
-            Process.Start(evt.RefUrl);
+            //Event evt = news.SelectedValue as Event;
+            //if (evt == null && !string.IsNullOrEmpty(evt.RefUrl)) return;
+            //Process.Start(evt.RefUrl);
         }
 
         private void news_SelectedIndexChanged(object sender, EventArgs e)
@@ -101,11 +102,18 @@ namespace ynetMivzakim
                 MessageBox.Show("Error :-( " + e.Error.Message); return;
             }
             if (e.Cancelled) return;
-            List<Event> evts = (List<Event>)e.Result;
-            news.DataSource = null;
-            news.DataSource = evts;
-            news.DisplayMember = "Display";
-            news.ValueMember = "This";
+            FeedINfo evts = (FeedINfo)e.Result;
+            news.feedInfo = evts;
+            StartWaiting();
+            FeedINfoContentProcessor processor = new FeedINfoContentProcessor(news.feedInfo);
+            processor.Process();
+            newsProcessorView1.ProcessResult = processor.WordAppeances;
+            StopWaiting();
+
+            
+            //news.DataSource = evts;
+            //news.DisplayMember = "Display";
+            //news.ValueMember = "This";
             lastUpdated = DateTime.Now;
             lstatus.Text = string.Format("Updated: {0}", lastUpdated.ToString("HH:mm"));
             
@@ -132,6 +140,15 @@ namespace ynetMivzakim
             lstatus.Text =
             lstatus.Text.Replace(".", "") + dotsstr;
             this.Invalidate();
+        }
+
+        private void processToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            StartWaiting();
+            FeedINfoContentProcessor processor = new FeedINfoContentProcessor(news.feedInfo);
+            processor.Process();
+            StopWaiting();
+            newsProcessorView.ShowResults(processor.WordAppeances);
         }
 
 

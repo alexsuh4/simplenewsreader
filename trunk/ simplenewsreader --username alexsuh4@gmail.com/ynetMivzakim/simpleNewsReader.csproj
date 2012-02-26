@@ -94,13 +94,34 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="jokeView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="jokeView.Designer.cs">
+      <DependentUpon>jokeView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="newsProcessorView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="newsProcessorView.Designer.cs">
+      <DependentUpon>newsProcessorView.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="feedInfoView.resx">
       <DependentUpon>feedInfoView.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="feedItemsView.resx">
+      <DependentUpon>feedItemsView.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="jokeView.resx">
+      <DependentUpon>jokeView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="newsProcessorView.resx">
+      <DependentUpon>newsProcessorView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -136,6 +157,10 @@
     <None Include="ynetMivzakim_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ContentProcessor\ContentProcessorLibrary.csproj">
+      <Project>{E9184627-84C6-40F4-9C17-2F77A45B2A6A}</Project>
+      <Name>ContentProcessorLibrary</Name>
+    </ProjectReference>
     <ProjectReference Include="..\NewsReaderSharedLibabry\NewsReaderSharedLibabry.csproj">
       <Project>{3A9D81F1-41CF-4CD9-A3AE-48A96BB1A0E3}</Project>
       <Name>NewsReaderSharedLibabry</Name>
