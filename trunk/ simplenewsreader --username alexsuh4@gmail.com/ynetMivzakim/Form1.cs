@@ -108,6 +108,8 @@ namespace ynetMivzakim
             FeedINfoContentProcessor processor = new FeedINfoContentProcessor(news.feedInfo);
             processor.Process();
             newsProcessorView1.ProcessResult = processor.WordAppeances;
+            graph1.LoadData(processor.Graph());
+            
             StopWaiting();
 
             

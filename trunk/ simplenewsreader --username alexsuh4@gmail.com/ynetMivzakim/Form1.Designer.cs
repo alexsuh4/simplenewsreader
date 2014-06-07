@@ -42,11 +42,13 @@
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.processToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.progressPic = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.jokeView1 = new ynetMivzakim.jokeView();
             this.news = new ynetMivzakim.feedItemsView();
             this.newsProcessorView1 = new ynetMivzakim.newsProcessorView();
+            this.progressPic = new System.Windows.Forms.Panel();
+            this.jokeView1 = new ynetMivzakim.jokeView();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.splitContainer2 = new System.Windows.Forms.SplitContainer();
+            this.graph1 = new ynetMivzakim.Graph();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.imgprogressPic)).BeginInit();
             this.contextMenuStrip1.SuspendLayout();
@@ -55,6 +57,9 @@
             this.splitContainer1.SuspendLayout();
             this.progressPic.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.splitContainer2.Panel1.SuspendLayout();
+            this.splitContainer2.Panel2.SuspendLayout();
+            this.splitContainer2.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -150,37 +155,11 @@
             // 
             // splitContainer1.Panel2
             // 
-            this.splitContainer1.Panel2.Controls.Add(this.newsProcessorView1);
+            this.splitContainer1.Panel2.Controls.Add(this.splitContainer2);
             this.splitContainer1.Panel2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.splitContainer1.Size = new System.Drawing.Size(517, 499);
             this.splitContainer1.SplitterDistance = 172;
             this.splitContainer1.TabIndex = 6;
-            // 
-            // progressPic
-            // 
-            this.progressPic.Controls.Add(this.jokeView1);
-            this.progressPic.Controls.Add(this.panel2);
-            this.progressPic.Location = new System.Drawing.Point(0, 30);
-            this.progressPic.Name = "progressPic";
-            this.progressPic.Size = new System.Drawing.Size(416, 387);
-            this.progressPic.TabIndex = 4;
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.imgprogressPic);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(416, 133);
-            this.panel2.TabIndex = 4;
-            // 
-            // jokeView1
-            // 
-            this.jokeView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.jokeView1.Location = new System.Drawing.Point(0, 133);
-            this.jokeView1.Name = "jokeView1";
-            this.jokeView1.Size = new System.Drawing.Size(416, 254);
-            this.jokeView1.TabIndex = 3;
             // 
             // news
             // 
@@ -198,8 +177,61 @@
             this.newsProcessorView1.Location = new System.Drawing.Point(0, 0);
             this.newsProcessorView1.Name = "newsProcessorView1";
             this.newsProcessorView1.ProcessResult = null;
-            this.newsProcessorView1.Size = new System.Drawing.Size(517, 323);
+            this.newsProcessorView1.Size = new System.Drawing.Size(259, 323);
             this.newsProcessorView1.TabIndex = 5;
+            // 
+            // progressPic
+            // 
+            this.progressPic.Controls.Add(this.jokeView1);
+            this.progressPic.Controls.Add(this.panel2);
+            this.progressPic.Location = new System.Drawing.Point(0, 30);
+            this.progressPic.Name = "progressPic";
+            this.progressPic.Size = new System.Drawing.Size(416, 387);
+            this.progressPic.TabIndex = 4;
+            // 
+            // jokeView1
+            // 
+            this.jokeView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.jokeView1.Location = new System.Drawing.Point(0, 133);
+            this.jokeView1.Name = "jokeView1";
+            this.jokeView1.Size = new System.Drawing.Size(416, 254);
+            this.jokeView1.TabIndex = 3;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.imgprogressPic);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(416, 133);
+            this.panel2.TabIndex = 4;
+            // 
+            // splitContainer2
+            // 
+            this.splitContainer2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer2.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer2.Name = "splitContainer2";
+            // 
+            // splitContainer2.Panel1
+            // 
+            this.splitContainer2.Panel1.Controls.Add(this.newsProcessorView1);
+            this.splitContainer2.Panel1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            // 
+            // splitContainer2.Panel2
+            // 
+            this.splitContainer2.Panel2.Controls.Add(this.graph1);
+            this.splitContainer2.Panel2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.splitContainer2.Size = new System.Drawing.Size(517, 323);
+            this.splitContainer2.SplitterDistance = 259;
+            this.splitContainer2.TabIndex = 6;
+            // 
+            // graph1
+            // 
+            this.graph1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.graph1.Location = new System.Drawing.Point(0, 0);
+            this.graph1.Name = "graph1";
+            this.graph1.Size = new System.Drawing.Size(254, 323);
+            this.graph1.TabIndex = 0;
             // 
             // Form1
             // 
@@ -223,6 +255,9 @@
             this.splitContainer1.ResumeLayout(false);
             this.progressPic.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
+            this.splitContainer2.Panel1.ResumeLayout(false);
+            this.splitContainer2.Panel2.ResumeLayout(false);
+            this.splitContainer2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -246,6 +281,8 @@
         private System.Windows.Forms.Panel progressPic;
         private jokeView jokeView1;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.SplitContainer splitContainer2;
+        private Graph graph1;
     }
 }
 
